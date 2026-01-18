@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class expressError extends Error{
     constructor(statuscode,message){
         super();
@@ -6,4 +7,14 @@ class expressError extends Error{
 
     }}
 
+=======
+class expressError extends Error{
+    constructor(statuscode,message){
+        super();
+        this.statuscode=statuscode;
+        this.message=message;
+
+    }}
+
+>>>>>>> b66aa0e (Add Project Files)
     module.exports=expressError;
